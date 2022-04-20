@@ -72,12 +72,14 @@ header div a {
     width: 150px;
     height: 50px;
     line-height: 50px;
-    background-color: royalblue;
+    background-color: #3530c0;
     text-align: center;
+    display: block;
 }
 
 /* .best_v */
 .best_v {
+    /* background: url('../images/파일명.확장자명'); */
     padding: 100px 0;
 }
 .best_v .title {
@@ -139,7 +141,8 @@ header div a {
 .best_v .cont .info ul li a {
     height: 45px;
     line-height: 45px;
-    border: 1px solid royalblue;
+    box-shadow: 2px 3px 15px #dfdfdf;
+    border-radius: 30px;
     box-sizing: border-box;
     /* 테두리 : 1px 직선 색상 */
     /* 테두리를 포함해서 높이(45px)가 잡힐 수 있도록 설정 */
@@ -148,8 +151,9 @@ header div a {
     margin-right: 10px;
 }
 .best_v .cont .info ul li:nth-child(1) a {
-    background-color: royalblue;
-    color: #fff;
+    background-color: #fff;
+    box-shadow: 2px 3px 15px #dfdfdf;
+    border: 1px solid #fff;
 }
 
 
@@ -177,17 +181,20 @@ header div a {
 
     height: 45px;
     line-height: 45px;
-    border: 1px solid #ccc;
+    box-shadow: 2px 3px 15px #dfdfdf;
+    border-radius: 30px;
     padding: 0 30px;
     margin: 0 5px;
     box-sizing: border-box;
 }
 .motion .list li.on {
-    box-shadow: 2px 3px 15px rgba(255, 92, 70, 0.575);
+    box-shadow: 2px 3px 15px #dfdfdf;
     /* 그림자 : x축 y축 블러 색상 */
-    background-color: rgb(255, 0, 0);
-    color: #fff;
+    background-color: #fff;
     border: 0;
+    border-radius: 30px;
+    color: #4f5bff;
+    font-weight: bold;
 }  
 .motion .motion_cont .list_cont {
     width: 1280px;
@@ -202,6 +209,7 @@ header div a {
 .motion .motion_cont .list_cont .items {
     width: 49%;
     border: 1px solid #ccc;
+    border-radius: 30px;
     box-sizing: border-box;
 }
 .youtube {
@@ -240,63 +248,70 @@ header div a {
     text-decoration: underline;
 }
 
-/* .g_ver05 */
-.g_ver05 {
-    background-color: #eee;
-    padding: 100px 0;
-}
-.g_ver05 .title {
-    text-align: center;
-    width: 1280px;
-    margin: 0 auto;
-}
-.g_ver05 .title h3 {
-    font-size: 45px;    
-}
-.g_ver05 .title p {
-    font-size: 20px;
-}
-.g_ver05 .title em {
-    font-size: 13px;
-    text-align: right;
-    margin-top: 40px;
-    margin-bottom: 10px;
-    display: block;
-}
-.g_ver05 .cont {
-    width: 1280px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-.g_ver05 .cont .items {
-    width: 49%;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-.g_ver05 .cont .items figure {
-    width: 60%;
-    height: 500px;
-}
-.g_ver05 .cont .items figure img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.g_ver05 .cont .items .info {
-    width: 40%;
-    padding-left: 20px;
-    box-sizing: border-box;
-}
-.g_ver05 .cont .items .info p {
-    font-size: 14px;    
-}
-.g_ver05 .cont .items .info h4 {
-    font-size: 30px;
-    margin-bottom: 20px;
-}
+       /* .g_ver01 */
+       .g_ver01 {
+        padding: 100px 0;     
+    }
+    .g_ver01 .title {
+        width: 1440px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .g_ver01 .title h3 {
+        font-size: 45px;
+    }
+    .g_ver01 .title p {
+        font-size: 20px;
+    }
+    .g_ver01 .title em {
+        font-size: 13px;
+        /* 위 여백 : 40px
+        아래 여백 : 10px */
+        margin: 40px 0 10px;
+        /* 외부여백 : 위 좌우 하 */
+        /* background-color: aqua;/ */
+        display: block;
+        text-align: right;
+    }
+    .g_ver01 .cont {
+        width: 1440px;
+         
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .g_ver01 .cont .items {
+        width: 23%;
+        background-color: #fff;
+        padding: 25px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        box-shadow: 2px 3px 15px #dfdfdf;
+    }
+    .g_ver01 .cont .items figure {
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+    .g_ver01 .cont .items figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: 0.8s;
+    }
+    .g_ver01 .cont .items .info {
+        margin: 30px 0;
+    }
+    .g_ver01 .cont .items .info p {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .g_ver01 .cont .items .info h4 {
+        font-size: 20px;
+    }
+    .g_ver01 .cont .items:hover figure img {
+        transform: scale(1.5);
+    }
 
 /* .about */
 .about {
