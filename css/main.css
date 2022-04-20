@@ -1,5 +1,26 @@
 @charset "utf-8";
 
+@font-face {
+    font-family: 'LeferiPoint-BlackA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/LeferiPoint-BlackA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24SsurroundAir';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24SsurroundAir.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {margin: 0; padding: 0;}
 li {list-style: none;}
 a {text-decoration: none; color: #333;}
@@ -61,11 +82,13 @@ header div a {
 .main_visual .title h2 {
     width: 100%;
     font-size: 60px;
+    font-family: 'LeferiPoint-BlackA';
 }
 .main_visual .title p {
     width: 100%;
     font-size: 30px;
     margin-bottom: 40px;
+    font-family: 'Cafe24SsurroundAir';
 }
 .main_visual .title a {
     color: #fff;
@@ -75,12 +98,14 @@ header div a {
     background-color: #3530c0;
     text-align: center;
     display: block;
+    font-family: 'Cafe24SsurroundAir';
 }
 
 /* .best_v */
 .best_v {
     /* background: url('../images/파일명.확장자명'); */
     padding: 100px 0;
+    font-size: 15px;
 }
 .best_v .title {
     text-align: center;
@@ -88,9 +113,11 @@ header div a {
 }
 .best_v .title h3 {
     font-size: 45px;
+    font-family: 'LeferiPoint-BlackA';
 }
 .best_v .title p {
     font-size: 20px;
+    font-family: 'GmarketSansLight';
 }
 .best_v .cont {
     width: 1280px;
@@ -118,14 +145,17 @@ header div a {
 }
 .best_v .cont .info {
     width: 40%;
+    font-family: 'Cafe24SsurroundAir';
 }
 .best_v .cont .info h4 {
     font-size: 30px;
     margin-bottom: 5px;
+    font-family: 'LeferiPoint-BlackA';
 }
 .best_v .cont .info p:nth-of-type(2) {
      /* 외부여백 위20px 아래 40px */
     margin: 20px 0 40px;
+    
 }
 .best_v .cont .info dl {
     display: flex;
@@ -159,6 +189,8 @@ header div a {
 
 .motion {
     padding: 100px 0;
+    font-family: 'Cafe24SsurroundAir';
+    font-size: 15px;
 }
 .motion .title {
     text-align: center;
@@ -166,9 +198,11 @@ header div a {
 }
 .motion .title h3 {
     font-size: 45px;
+    font-family: 'LeferiPoint-BlackA';
 }
 .motion .title p {
     font-size: 20px;
+    font-family: 'GmarketSansLight';
 }
 .motion .list {
     display: flex;
@@ -234,6 +268,7 @@ header div a {
 .motion .list_cont .items .info h4 {
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: 'LeferiPoint-BlackA';
 }
 .motion .list_cont .items .info dl {
     display: flex;
@@ -250,7 +285,9 @@ header div a {
 
        /* .g_ver01 */
        .g_ver01 {
-        padding: 100px 0;     
+        padding: 100px 0;    
+        font-family: 'Cafe24SsurroundAir'; 
+        font-size: 15px;
     }
     .g_ver01 .title {
         width: 1440px;
@@ -259,9 +296,11 @@ header div a {
     }
     .g_ver01 .title h3 {
         font-size: 45px;
+        font-family: 'LeferiPoint-BlackA';
     }
     .g_ver01 .title p {
         font-size: 20px;
+        font-family: 'GmarketSansLight';
     }
     .g_ver01 .title em {
         font-size: 13px;
@@ -308,6 +347,7 @@ header div a {
     }
     .g_ver01 .cont .items .info h4 {
         font-size: 20px;
+        font-family: 'LeferiPoint-BlackA';
     }
     .g_ver01 .cont .items:hover figure img {
         transform: scale(1.5);
@@ -323,6 +363,7 @@ header div a {
     display: flex;    
     align-items: center;
     justify-content: space-between;
+    font-family: 'Cafe24SsurroundAir'; 
 }
 .about .cont figure {
     width: 30%;
@@ -346,24 +387,29 @@ header div a {
 .about .cont .info h4 {
     font-size: 30px;
     margin-bottom: 20px;
+    font-family: 'LeferiPoint-BlackA';
 }
 .about .cont .info p {
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5px;
 }
 .about .cont .info dl dt {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 5px;
 }
 .about .cont .info dl dd {
-    font-size: 20px;
+    font-size: 18px;
 }
 footer {
     background-color: #333;
     text-align: center;
     color: #fff;
     padding: 100px 0;
+    font-family: 'Cafe24SsurroundAir';
+}
+footer h3 {
+    font-family: 'LeferiPoint-BlackA';
 }
 footer ul li {
     width: 220px;
