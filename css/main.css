@@ -69,22 +69,25 @@ header div a {
     height: 100%;
     position: absolute;
     left: 50%;
-    top: 0;
+    top: 100px;
     transform: translateX(-50%);
     /* 변형: 이동x축 -> 본인이 가진 너비의 반만큼 역으로 이동 */
 
-    color: #000;
-    opacity: 50%;
+    color: rgb(32, 30, 30);
 
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* align-content: center; */
+    text-align: center;
 }
 .main_visual .title h2 {
     width: 100%;
     font-size: 60px;
     font-family: 'LeferiPoint-BlackA';
     
+}
+.main_visual .animate__animated {
+    height: 100%;
 }
 .main_visual .title p {
     width: 100%;
@@ -98,9 +101,16 @@ header div a {
     height: 50px;
     line-height: 50px;
     background-color: #3530c0;
+    border-radius: 30px;
     text-align: center;
     display: block;
     font-family: 'Cafe24SsurroundAir';
+    margin: 0 auto;
+    position: absolute;
+    bottom: 235px;
+    left: 50%;
+    transform: translateX(-50%);
+   
 }
 
 /* .best_v */
