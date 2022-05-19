@@ -73,7 +73,8 @@ header div a {
     transform: translateX(-50%);
     /* 변형: 이동x축 -> 본인이 가진 너비의 반만큼 역으로 이동 */
 
-    color: #fff;
+    color: #000;
+    opacity: 50%;
 
     display: flex;
     flex-wrap: wrap;
